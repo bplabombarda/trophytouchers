@@ -1,0 +1,157 @@
+{
+	"data": [
+	  {
+	    "year": 2001,
+	    "w": "COL",
+	    "w_conf": "west",
+	    "w_touch": true,
+	    "l": "NJD",
+	    "l_conf": "east",
+	    "l_touch": true
+	  },
+	  {
+	    "year": 2002,
+	    "w": "DET",
+	    "w_conf": "west",
+	    "w_touch": true,
+	    "l": "CAR",
+	    "l_conf": "east",
+	    "l_touch": true
+	  },
+	  {
+	    "year": 2003,
+	    "w": "NJD",
+	    "w_conf": "east",
+	    "w_touch": true,
+	    "l": "ANA",
+	    "l_conf": "west",
+	    "l_touch": false
+	  },
+	  {
+	    "year": 2004,
+	    "w": "TBL",
+	    "w_conf": "east",
+	    "w_touch": false,
+	    "l": "CGY",
+	    "l_conf": "west",
+	    "l_touch": true
+	  },
+	  {
+	    "year": 2005,
+	    "w": "N/A",
+	    "w_conf": "N/A",
+	    "w_touch": "N/A",
+	    "l": "N/A",
+	    "l_conf": "N/A",
+	    "l_touch": "N/A"
+	  },
+	  {
+	    "year": 2006,
+	    "w": "CAR",
+	    "w_conf": "east",
+	    "w_touch": false,
+	    "l": "EDM",
+	    "l_conf": "west",
+	    "l_touch": false
+	  },
+	  {
+	    "year": 2007,
+	    "w": "ANA",
+	    "w_conf": "west",
+	    "w_touch": false,
+	    "l": "OTT",
+	    "l_conf": "east",
+	    "l_touch": true
+	  },
+	  {
+	    "year": 2008,
+	    "w": "DET",
+	    "w_conf": "west",
+	    "w_touch": false,
+	    "l": "PIT",
+	    "l_conf": "east",
+	    "l_touch": false
+	  },
+	  {
+	    "year": 2009,
+	    "w": "PIT",
+	    "w_conf": "east",
+	    "w_touch": true,
+	    "l": "DET",
+	    "l_conf": "west",
+	    "l_touch": false
+	  },
+	  {
+	    "year": 2010,
+	    "w": "CHI",
+	    "w_conf": "west",
+	    "w_touch": false,
+	    "l": "PHI",
+	    "l_conf": "east",
+	    "l_touch": true
+	  },
+	  {
+	    "year": 2011,
+	    "w": "BOS",
+	    "w_conf": "east",
+	    "w_touch": false,
+	    "l": "VAN",
+	    "l_conf": "west",
+	    "l_touch": false
+	  },
+	  {
+	    "year": 2012,
+	    "w": "LAK",
+	    "w_conf": "west",
+	    "w_touch": false,
+	    "l": "NJD",
+	    "l_conf": "east",
+	    "l_touch": false
+	  },
+	  {
+	    "year": 2013,
+	    "w": "CHI",
+	    "w_conf": "west",
+	    "w_touch": false,
+	    "l": "BOS",
+	    "l_conf": "east",
+	    "l_touch": false
+	  },
+	  {
+	    "year": 2014,
+	    "w": "LAK",
+	    "w_conf": "west",
+	    "w_touch": false,
+	    "l": "NYR",
+	    "l_conf": "east",
+	    "l_touch": false
+	  },
+	  {
+	    "year": 2015,
+	    "w": "CHI",
+	    "w_conf": "west",
+	    "w_touch": false,
+	    "l": "TBL",
+	    "l_conf": "east",
+	    "l_touch": false
+	  },
+	  {
+	    "year": 2016,
+	    "w": "PIT",
+	    "w_conf": "east",
+	    "w_touch": true,
+	    "l": "SJS",
+	    "l_conf": "west",
+	    "l_touch": false
+	  },
+	  {
+	    "year": 2017,
+	    "w": "PIT",
+	    "w_conf": "east",
+	    "w_touch": true,
+	    "l": "NSH",
+	    "l_conf": "west",
+	    "l_touch": false
+	  }
+	]
+}
