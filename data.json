@@ -152,6 +152,15 @@
 	    "l": "NSH",
 	    "l_conf": "west",
 	    "l_touch": false
+	  },
+	  {
+	    "year": 2018,
+	    "w": "WSH",
+	    "w_conf": "east",
+	    "w_touch": true,
+	    "l": "VGK",
+	    "l_conf": "west",
+	    "l_touch": true
 	  }
 	]
 }
