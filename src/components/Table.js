@@ -5,7 +5,7 @@ const Table = (props) => {
 	const { data } = props;
 	console.log(data);
 
-	return(
+	return (
 		<ul id="conference-data">
 			{data.map(year => {
 				return <Year key={year.year} data={year}/>

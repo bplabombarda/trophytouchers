@@ -11,7 +11,7 @@ const Header = (props) => {
       subheader = <h3>By Result</h3>;
     }
 
-	return(
+	return (
 		<header>
 			<h1>Trophy Touchers</h1>
 			{ subheader }

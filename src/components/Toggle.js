@@ -3,7 +3,7 @@ import React, { Fragment } from 'react';
 const Toggle = (props) => {
 	const { view } = props;
 
-	return(
+	return (
 		<Fragment>
 			<button type="button">By Result</button>
 			<button type="button">By Conference</button>
