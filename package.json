@@ -1,0 +1,19 @@
+{
+  "name": "trophytouchers",
+  "version": "1.0.0",
+  "description": "A visualization of NHL conference champions touching their trophies.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bplabombarda/trophytouchers.git"
+  },
+  "author": "Brett LaBombarda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bplabombarda/trophytouchers/issues"
+  },
+  "homepage": "https://github.com/bplabombarda/trophytouchers#readme"
+}
