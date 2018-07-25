@@ -6,9 +6,9 @@ const Header = (props) => {
 	let subheader;
 
 	if (view === 'conference') {
-      subheader = <h3>By Conference</h3>;
+      subheader = <h2>By Conference</h2>;
     } else {
-      subheader = <h3>By Result</h3>;
+      subheader = <h2>By Result</h2>;
     }
 
 	return (
