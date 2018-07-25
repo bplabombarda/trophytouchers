@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --hot --inline --content-base src/",
     "clean": "rimraf dist **/*.min.css",
-    "build": "cross-env NODE_ENV=production webpack",
+    "build": "./node_modules/bin/cross-env NODE_ENV=production webpack",
     "prod": "npm run clean && npm run build",
     "lint": "eslint ."
   },

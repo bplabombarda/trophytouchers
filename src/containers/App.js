@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import Header from '../components/Header';
-// import Year from '../components/Year';
+import Table from '../components/Table';
 
 export default class App extends Component {
 	constructor(props){
@@ -10,10 +10,29 @@ export default class App extends Component {
             view: 'result'
         };
     }
+
+    componentDidMount() {
+    	const xhr = new XMLHttpRequest();
+		xhr.overrideMimeType("application/json");
+		xhr.onreadystatechange = () => {
+		  if (xhr.readyState == XMLHttpRequest.DONE) {
+		  	const json = JSON.parse(xhr.responseText);
+		  	const res = json.data;
+		  	this.setState({
+		  		data: res
+		  	});
+		  }
+		}
+		xhr.open('GET', 'data.json');
+		xhr.send();
+    }
 	
 	render() {
 		return (
-			<Header view={this.state.view}/>
+			<Fragment>
+				<Header view={this.state.view}/>
+				<Table data={this.state.data}/>
+			</Fragment>
 		);
 	}
 };
