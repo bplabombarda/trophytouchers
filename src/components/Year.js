@@ -5,7 +5,7 @@ const Year = (props) => {
 
 	return(
 		<li>
-			{data.year}
+			{`${data.year}: ${data.w} vs ${data.l}`}
 		</li>
 	)
 }
