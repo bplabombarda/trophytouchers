@@ -9,6 +9,7 @@ export default class App extends Component {
             data: [],
             view: 'result'
         };
+        this.handleToggle = this.handleToggle.bind(this);
     }
 
     componentDidMount() {
@@ -23,14 +24,24 @@ export default class App extends Component {
 		  	});
 		  }
 		}
-		xhr.open('GET', 'data.json');
+		xhr.open('GET', '../data.json');
 		xhr.send();
     }
-	
+
+    handleToggle() {
+    	if (this.state.view === 'result') {
+    		this.setState({ view: 'conference' })
+    	}
+    	else {
+    		this.setState({ view: 'result' })
+    	}
+    	console.log(this.state.view)
+    }
+ 	
 	render() {
 		return (
 			<Fragment>
-				<Header view={this.state.view}/>
+				<Header view={this.state.view} toggleHandler={this.handleToggle}/>
 				<Table data={this.state.data}/>
 			</Fragment>
 		);

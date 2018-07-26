@@ -2,7 +2,7 @@ import React from 'react';
 import Toggle from './Toggle';
 
 const Header = (props) => {
-	const { view } = props;
+	const { view, toggleHandler } = props;
 	let subheader;
 
 	if (view === 'conference') {
@@ -15,7 +15,7 @@ const Header = (props) => {
 		<header>
 			<h1>Trophy Touchers</h1>
 			{ subheader }
-			<Toggle view={view}/>
+			<Toggle view={view} toggleHandler={toggleHandler}/>
 		</header>
 	)
 }
