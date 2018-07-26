@@ -10,11 +10,12 @@ export default class App extends Component {
             view: 'result'
         };
         this.handleToggle = this.handleToggle.bind(this);
+        this.handleSortTable = this.handleSortTable.bind(this);
     }
 
     componentDidMount() {
     	const xhr = new XMLHttpRequest();
-		xhr.overrideMimeType("application/json");
+		xhr.overrideMimeType('application/json');
 		xhr.onreadystatechange = () => {
 		  if (xhr.readyState == XMLHttpRequest.DONE) {
 		  	const json = JSON.parse(xhr.responseText);
@@ -35,14 +36,24 @@ export default class App extends Component {
     	else {
     		this.setState({ view: 'result' })
     	}
-    	console.log(this.state.view)
+    }
+
+    handleSortTable() {
+
     }
  	
 	render() {
+		const { data, view } = this.state;
 		return (
 			<Fragment>
-				<Header view={this.state.view} toggleHandler={this.handleToggle}/>
-				<Table data={this.state.data}/>
+				<Header
+					view={view}
+					toggleHandler={this.handleToggle}
+					/>
+				<Table
+					view={view} 
+					data={data}
+					sortHandler={this.handleSortTable}/>
 			</Fragment>
 		);
 	}
