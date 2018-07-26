@@ -15,7 +15,7 @@ const Header = (props) => {
 		<header>
 			<h1>Trophy Touchers</h1>
 			{ subheader }
-			<Toggle />
+			<Toggle view={view}/>
 		</header>
 	)
 }
