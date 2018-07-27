@@ -102,10 +102,22 @@ if ( ENV === 'prod') {
   module.exports = merge( commonConfig, {
     mode: 'production',
 
-    entry: resolve(__dirname, 'src/index.js'),
+    entry: {
+      main: resolve(__dirname, 'src/index.js'),
+      vendor: [
+        'react',
+        'react-dom',
+      ],
+    },
 
     output: {
       filename: 'js/[hash].js',
+    },
+
+    optimization: {
+      splitChunks: {
+        chunks: 'all'
+      }
     },
 
     module: {
@@ -126,6 +138,10 @@ if ( ENV === 'prod') {
         {
           from: 'src/assets/',
           to:   'assets/'
+        },
+        {
+          from: 'src/data/',
+          to:   'data/'
         },
       ])
     ],

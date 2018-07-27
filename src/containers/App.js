@@ -1,32 +1,19 @@
 import React, { Component, Fragment } from 'react';
+import Footer from '../components/Footer';
 import Header from '../components/Header';
-import Table from '../components/Table';
+import List from '../components/List';
+
+import data from '../data/data';
+console.log(data);
 
 export default class App extends Component {
 	constructor(props){
         super(props);
         this.state = {
-            data: [],
+            data: data.data,
             view: 'result'
         };
         this.handleToggle = this.handleToggle.bind(this);
-        this.handleSortTable = this.handleSortTable.bind(this);
-    }
-
-    componentDidMount() {
-    	const xhr = new XMLHttpRequest();
-		xhr.overrideMimeType('application/json');
-		xhr.onreadystatechange = () => {
-		  if (xhr.readyState == XMLHttpRequest.DONE) {
-		  	const json = JSON.parse(xhr.responseText);
-		  	const res = json.data;
-		  	this.setState({
-		  		data: res
-		  	});
-		  }
-		}
-		xhr.open('GET', '../data.json');
-		xhr.send();
     }
 
     handleToggle() {
@@ -37,23 +24,20 @@ export default class App extends Component {
     		this.setState({ view: 'result' })
     	}
     }
-
-    handleSortTable() {
-
-    }
  	
 	render() {
 		const { data, view } = this.state;
+
 		return (
 			<Fragment>
 				<Header
 					view={view}
 					toggleHandler={this.handleToggle}
 					/>
-				<Table
+				<List
 					view={view} 
-					data={data}
-					sortHandler={this.handleSortTable}/>
+					data={data}/>
+				<Footer />
 			</Fragment>
 		);
 	}
