@@ -4,7 +4,7 @@ const Toggle = (props) => {
 	const { view, toggleHandler } = props;
 
 	return (
-		<Fragment>
+		<div className="toggle-button-group">
 			<button
 				type="button"
 				disabled={view === 'result'}
@@ -17,7 +17,7 @@ const Toggle = (props) => {
 				onClick={toggleHandler.bind(this)}>
 				By Conference
 			</button>
-		</Fragment>
+		</div>
 	)
 }
 

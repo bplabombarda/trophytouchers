@@ -1,5 +1,70 @@
 body {
-	background: darkslategray;
-	color: lightsalmon;
 	font-family: 'Anonymous Pro', monospace;
+	color: ivory;
+	background: #333333;
+	text-align: center;
+}
+
+h1 {
+	margin: 0;
+    font-size: 24px;
+}
+
+section {
+	width: 240px;
+	margin: 0 auto 3em;
+}
+
+.data-header {
+	font-weight: bold;
+	opacity: 0.6;
+}
+
+.legend {
+	font-size: 12px;
+	text-align: left;
+	margin-bottom: 5px;
+}
+
+.legend-icon {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    margin-right: 10px;
+}
+
+.legend-touch {
+    background: lightgreen;
+}
+
+.legend-notouch {
+    background: tomato;
+}
+
+.touch.lockout {
+	background: gray;
+}
+
+#data-list {
+	padding: 0;
+}
+
+#data-list li {
+	list-style: none;
+}
+
+li div {
+	display: inline-block;
+	width: 50px;
+	padding: 5px;
+}
+
+.touch {
+	background: lightgreen;
+}
+
+.notouch {
+	background: tomato;
 }

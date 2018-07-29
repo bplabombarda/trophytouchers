@@ -5,7 +5,7 @@ const Table = (props) => {
 	const { data, view } = props;
 
 	return (
-		<ul id="conference-data">
+		<ul id="data-list">
 			<li>
 				<div>year</div>
 				<div>{ view === 'result' ? 'winner' : 'east' }</div>
