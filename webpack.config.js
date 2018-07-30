@@ -9,7 +9,7 @@ const ENV = process.env.npm_lifecycle_event === 'build' ? 'prod' : 'dev';
 
 const commonConfig = {
   output: {
-    path:   resolve(__dirname, 'dist'),
+    path:   resolve(__dirname, 'build'),
     pathinfo: !ENV.prod,
   },
 
