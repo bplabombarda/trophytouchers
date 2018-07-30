@@ -37,9 +37,5 @@ jspm_packages
 # Optional REPL history
 .node_repl_history
 
-# JSHint
-.jshintrc
-
-# Dist
-dist
-*.min.css
+# Build
+build
