@@ -5,7 +5,7 @@ const Footer = (props) => {
 		<footer>
 			<div className="legend">
 				<div className="legend-icon legend-touch"></div>
-        		Touched conference tropy.
+        		Touched conference trophy.
 			</div>
 			<div className="legend">
 				<div className="legend-icon legend-notouch"></div>
