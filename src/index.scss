@@ -10,9 +10,27 @@ h1 {
     font-size: 24px;
 }
 
+.toggle-button-group button {
+	font-family: 'Anonymous Pro';
+	background-color: ivory;
+	border: none;
+	width: 100px;
+	padding: 0.6em;
+	margin: 0.6em;
+}
+
+.toggle-button-group .button-active {
+
+}
+
+.toggle-button-group .button-disabled {
+	color: lightgray;
+	background: gray;
+}
+
 section {
 	width: 240px;
-	margin: 0 auto 3em;
+	margin: 0 auto 3.0em;
 }
 
 .data-header {
@@ -23,7 +41,10 @@ section {
 .legend {
 	font-size: 12px;
 	text-align: left;
+	width: 100%;
+	max-width: 240px;
 	margin-bottom: 5px;
+	margin: 0 auto;
 }
 
 .legend-icon {
@@ -43,10 +64,6 @@ section {
     background: tomato;
 }
 
-.touch.lockout {
-	background: gray;
-}
-
 #data-list {
 	padding: 0;
 }
@@ -61,10 +78,15 @@ li div {
 	padding: 5px;
 }
 
+#matchup-2005 .team-a,
+#matchup-2005 .team-b {
+	background: gray;
+}
+
 .touch {
 	background: lightgreen;
 }
 
-.notouch {
+.no-touch {
 	background: tomato;
 }

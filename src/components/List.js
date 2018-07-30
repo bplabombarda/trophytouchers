@@ -6,10 +6,10 @@ const Table = (props) => {
 
 	return (
 		<ul id="data-list">
-			<li>
+			<li className="data-header">
 				<div>year</div>
-				<div>{ view === 'result' ? 'winner' : 'east' }</div>
-				<div>{ view === 'result' ? 'loser' : 'west' }</div>
+				<div>{view === 'result' ? 'winner' : 'east'}</div>
+				<div>{view === 'result' ? 'loser' : 'west'}</div>
 			</li>
 			{data.map(year => {
 				return <Year key={year.year} data={year} view={view} />

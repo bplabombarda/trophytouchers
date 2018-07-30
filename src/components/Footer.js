@@ -6,6 +6,8 @@ const Footer = (props) => {
 			<div className="legend">
 				<div className="legend-icon legend-touch"></div>
         		Touched conference tropy.
+			</div>
+			<div className="legend">
 				<div className="legend-icon legend-notouch"></div>
 				Did not touch conference trophy.
 			</div>
