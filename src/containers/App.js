@@ -2,9 +2,8 @@ import React, { Component, Fragment } from 'react';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import List from '../components/List';
-
 import data from '../data/data';
-console.log(data);
+
 
 export default class App extends Component {
 	constructor(props){

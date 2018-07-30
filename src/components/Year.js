@@ -5,23 +5,27 @@ const Year = (props) => {
 
 	let teamA;
 	let teamB;
-	const classesTeamA = data.w_touch ? 'team-a touch' : 'team-a no-touch';
-	const classesTeamB = data.l_touch ? 'team-b touch' : 'team-b no-touch';
+	let classesTeamA;
+	let classesTeamB;
 
 	if(view === 'conference') {
-		teamA = data.w_conf === 'east' ? data.w : data.l
-		teamB = data.w_conf === 'west' ? data.w : data.l
+		teamA = data.w.conf === 'east' ? data.w : data.l;
+		teamB = data.w.conf === 'west' ? data.w : data.l;
+		classesTeamA = teamA.touch ? 'team-a touch' : 'team-a no-touch';
+		classesTeamB = teamB.touch ? 'team-b touch' : 'team-b no-touch';
 	} 
 	else {
 		teamA = data.w;
 		teamB = data.l;
+		classesTeamA = teamA.touch ? 'team-a touch' : 'team-a no-touch';
+		classesTeamB = teamB.touch ? 'team-b touch' : 'team-b no-touch';
 	}
 
 	return (
 		<li id={`matchup-${data.year}`}>
 			<div className="year">{data.year}</div>
-			<div className={classesTeamA}>{teamA}</div>
-			<div className={classesTeamB}>{teamB}</div>
+			<div className={classesTeamA}>{teamA.abbr}</div>
+			<div className={classesTeamB}>{teamB.abbr}</div>
 		</li>
 	)
 }
