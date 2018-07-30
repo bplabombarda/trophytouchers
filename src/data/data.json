@@ -1,0 +1,238 @@
+{
+	"data": [
+	  {
+	    "year": 2001,
+	    "w": {
+	    	"abbr": "COL",
+		    "conf": "west",
+		    "touch": true
+	    },
+	    "l": {
+	    	"abbr": "NJD",
+		    "conf": "east",
+		    "touch": true
+	    }
+	  },
+	  {
+	    "year": 2002,
+	    "w": {
+	    	"abbr": "DET",
+		    "conf": "west",
+		    "touch": true
+	    },
+	    "l": {
+	    	"abbr": "CAR",
+		    "conf": "east",
+		    "touch": true
+	    }
+	  },
+	  {
+	    "year": 2003,
+	    "w": {
+	    	"abbr": "NJD",
+		    "conf": "east",
+		    "touch": true
+	    },
+	    "l": {
+	    	"abbr": "ANA",
+		    "conf": "west",
+		    "touch": false
+	    }
+	  },
+	  {
+	    "year": 2004,
+	    "w": {
+	    	"abbr": "TBL",
+		    "conf": "east",
+		    "touch": false
+	    },
+	    "l": {
+	    	"abbr": "CGY",
+		    "conf": "west",
+		    "touch": true
+	    }
+	  },
+	  {
+	    "year": 2005,
+	    "w": {
+	    	"abbr": "N/A",
+		    "conf": "N/A",
+		    "touch": "N/A"
+	    },
+	    "l": {
+	    	"abbr": "N/A",
+		    "conf": "N/A",
+		    "touch": "N/A"
+	    }
+	  },
+	  {
+	    "year": 2006,
+	    "w": {
+	    	"abbr": "CAR",
+		    "conf": "east",
+		    "touch": false
+	    },
+	    "l": {
+	    	"abbr": "EDM",
+		    "conf": "west",
+		    "touch": false
+	    }
+	  },
+	  {
+	    "year": 2007,
+	    "w": {
+	    	"abbr": "ANA",
+		    "conf": "west",
+		    "touch": false
+	    },
+	    "l": {
+	    	"abbr": "OTT",
+		    "conf": "east",
+		    "touch": true
+	    }
+	  },
+	  {
+	    "year": 2008,
+	    "w": {
+	    	"abbr": "DET",
+		    "conf": "west",
+		    "touch": false
+	    },
+	    "l": {
+	    	"abbr": "PIT",
+		    "conf": "east",
+		    "touch": false
+	    }
+	  },
+	  {
+	    "year": 2009,
+	    "w": {
+	    	"abbr": "PIT",
+		    "conf": "east",
+		    "touch": true
+	    },
+	    "l": {
+	    	"abbr": "DET",
+		    "conf": "west",
+		    "touch": false
+	    }
+	  },
+	  {
+	    "year": 2010,
+	    "w": {
+	    	"abbr": "CHI",
+		    "conf": "west",
+		    "touch": false
+	    },
+	    "l": {
+	    	"abbr": "PHI",
+		    "conf": "east",
+		    "touch": true
+	    }
+	  },
+	  {
+	    "year": 2011,
+	    "w": {
+	    	"abbr": "BOS",
+		    "conf": "east",
+		    "touch": false
+	    },
+	    "l": {
+	    	"abbr": "VAN",
+		    "conf": "west",
+		    "touch": false
+	    }
+	  },
+	  {
+	    "year": 2012,
+	    "w": {
+	    	"abbr": "LAK",
+		    "conf": "west",
+		    "touch": false
+	    },
+	    "l": {
+	    	"abbr": "NJD",
+		    "conf": "east",
+		    "touch": false
+	    }
+	  },
+	  {
+	    "year": 2013,
+	    "w": {
+	    	"abbr": "CHI",
+		    "conf": "west",
+		    "touch": false
+	    },
+	    "l": {
+	    	"abbr": "BOS",
+		    "conf": "east",
+		    "touch": false
+	    }
+	  },
+	  {
+	    "year": 2014,
+	    "w": {
+	    	"abbr": "LAK",
+		    "conf": "west",
+		    "touch": false
+	    },
+	    "l": {
+	    	"abbr": "NYR",
+		    "conf": "east",
+		    "touch": false
+	    }
+	  },
+	  {
+	    "year": 2015,
+	    "w": {
+	    	"abbr": "CHI",
+		    "conf": "west",
+		    "touch": false
+	    },
+	    "l": {
+	    	"abbr": "TBL",
+		    "conf": "east",
+		    "touch": false
+	    }
+	  },
+	  {
+	    "year": 2016,
+	    "w": {
+	    	"abbr": "PIT",
+		    "conf": "east",
+		    "touch": true
+	    },
+	    "l": {
+	    	"abbr": "SJS",
+		    "conf": "west",
+		    "touch": false
+	    }
+	  },
+	  {
+	    "year": 2017,
+	    "w": {
+	    	"abbr": "PIT",
+		    "conf": "east",
+		    "touch": true
+	    },
+	    "l": {
+	    	"abbr": "NSH",
+		    "conf": "west",
+		    "touch": false
+	    }
+	  },
+	  {
+	    "year": 2018,
+	    "w": {
+	    	"abbr": "WSH",
+		    "conf": "east",
+		    "touch": true
+	    },
+	    "l": {
+	    	"abbr": "VGK",
+		    "conf": "west",
+		    "touch": true
+	    }
+	  }
+	]
+}
