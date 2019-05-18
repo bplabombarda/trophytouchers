@@ -67,7 +67,7 @@ jobs:
       - run:
           name: Create Commit
           command: |
-            git add -f dist
+            git add -f build
             git commit -m "Automated deployment to GitHub Pages ${CIRCLE_SHA1}"
 
       - run:
