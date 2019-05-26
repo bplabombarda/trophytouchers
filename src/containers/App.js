@@ -2,7 +2,7 @@ import React, { Component, Fragment } from 'react';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import List from '../components/List';
-import data from '../data/data';
+import data from '../data/matchups';
 
 
 export default class App extends Component {
