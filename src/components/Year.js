@@ -9,23 +9,29 @@ const Year = (props) => {
 	let classesTeamB;
 
 	if(view === 'conference') {
-		teamA = data.w.conf === 'east' ? data.w : data.l;
-		teamB = data.w.conf === 'west' ? data.w : data.l;
+		teamA = data.east;
+		teamB = data.west;
 		classesTeamA = teamA.touch ? 'team-a touch' : 'team-a no-touch';
 		classesTeamB = teamB.touch ? 'team-b touch' : 'team-b no-touch';
-	} 
-	else {
-		teamA = data.w;
-		teamB = data.l;
+	} else {
+		teamA = data.east.winner ? data.east : data.west;
+		teamB = data.east.winner ? data.west : data.east;
 		classesTeamA = teamA.touch ? 'team-a touch' : 'team-a no-touch';
 		classesTeamB = teamB.touch ? 'team-b touch' : 'team-b no-touch';
 	}
 
+	const teamAAbbr = (teamA.winner === 'N/A' && view === 'result')
+		? 'N/A'
+		: teamA.abbr
+	const teamBAbbr = (teamB.winner === 'N/A' && view === 'result')
+		? 'N/A'
+		: teamB.abbr
+
 	return (
-		<li id={`matchup-${data.year}`}>
-			<div className="year">{data.year}</div>
-			<div className={classesTeamA}>{teamA.abbr}</div>
-			<div className={classesTeamB}>{teamB.abbr}</div>
+		<li id={`matchup-${ data.year }`}>
+			<div className="year">{ data.year }</div>
+			<div className={ classesTeamA }>{ teamAAbbr }</div>
+			<div className={ classesTeamB }>{ teamBAbbr }</div>
 		</li>
 	)
 }

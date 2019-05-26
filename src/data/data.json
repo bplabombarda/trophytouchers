@@ -2,236 +2,249 @@
 	"data": [
 	  {
 	    "year": 2001,
-	    "w": {
+			"east": {
+				"abbr": "NJD",
+				"touch": true,
+				"winner": false
+			},
+	    "west": {
 	    	"abbr": "COL",
-		    "conf": "west",
-		    "touch": true
-	    },
-	    "l": {
-	    	"abbr": "NJD",
-		    "conf": "east",
-		    "touch": true
+		    "touch": true,
+		    "winner": true
 	    }
 	  },
 	  {
 	    "year": 2002,
-	    "w": {
+			"east": {
+				"abbr": "CAR",
+				"touch": true,
+				"winner": false
+			},
+	    "west": {
 	    	"abbr": "DET",
-		    "conf": "west",
-		    "touch": true
-	    },
-	    "l": {
-	    	"abbr": "CAR",
-		    "conf": "east",
-		    "touch": true
+				"touch": true,
+				"winner": true
 	    }
 	  },
 	  {
 	    "year": 2003,
-	    "w": {
+	    "east": {
 	    	"abbr": "NJD",
-		    "conf": "east",
-		    "touch": true
+				"touch": true,
+				"winner": true
 	    },
-	    "l": {
+	    "west": {
 	    	"abbr": "ANA",
-		    "conf": "west",
-		    "touch": false
+				"touch": false,
+				"winner": false
 	    }
 	  },
 	  {
 	    "year": 2004,
-	    "w": {
+	    "east": {
 	    	"abbr": "TBL",
-		    "conf": "east",
-		    "touch": false
+				"touch": false,
+				"winner": true
 	    },
-	    "l": {
+	    "west": {
 	    	"abbr": "CGY",
-		    "conf": "west",
-		    "touch": true
+				"touch": true,
+				"winner": false
 	    }
 	  },
 	  {
 	    "year": 2005,
-	    "w": {
+	    "east": {
 	    	"abbr": "N/A",
-		    "conf": "N/A",
-		    "touch": "N/A"
+				"touch": "N/A",
+				"winner": "N/A"
 	    },
-	    "l": {
+	    "west": {
 	    	"abbr": "N/A",
-		    "conf": "N/A",
-		    "touch": "N/A"
+				"touch": "N/A",
+				"winner": "N/A"
 	    }
 	  },
 	  {
 	    "year": 2006,
-	    "w": {
+	    "east": {
 	    	"abbr": "CAR",
-		    "conf": "east",
-		    "touch": false
+				"touch": false,
+				"winner": true
 	    },
-	    "l": {
+	    "west": {
 	    	"abbr": "EDM",
-		    "conf": "west",
-		    "touch": false
+				"touch": false,
+				"winner": false
 	    }
 	  },
 	  {
 	    "year": 2007,
-	    "w": {
+			"east": {
+				"abbr": "OTT",
+				"touch": true,
+				"winner": false
+			},
+	    "west": {
 	    	"abbr": "ANA",
-		    "conf": "west",
-		    "touch": false
-	    },
-	    "l": {
-	    	"abbr": "OTT",
-		    "conf": "east",
-		    "touch": true
+				"touch": false,
+				"winner": true
 	    }
 	  },
 	  {
 	    "year": 2008,
-	    "w": {
-	    	"abbr": "DET",
-		    "conf": "west",
-		    "touch": false
-	    },
-	    "l": {
-	    	"abbr": "PIT",
-		    "conf": "east",
-		    "touch": false
+			"east": {
+				"abbr": "PIT",
+				"touch": false,
+				"winner": false
+			},
+	    "west": {
+				"abbr": "DET",
+				"touch": false,
+				"winner": true
 	    }
 	  },
 	  {
 	    "year": 2009,
-	    "w": {
+	    "east": {
 	    	"abbr": "PIT",
-		    "conf": "east",
-		    "touch": true
+				"touch": true,
+				"winner": true
 	    },
-	    "l": {
+	    "west": {
 	    	"abbr": "DET",
-		    "conf": "west",
-		    "touch": false
+				"touch": false,
+				"winner": false
 	    }
 	  },
 	  {
 	    "year": 2010,
-	    "w": {
+			"east": {
+				"abbr": "PHI",
+				"touch": true,
+				"winner": false
+			},
+	    "west": {
 	    	"abbr": "CHI",
-		    "conf": "west",
-		    "touch": false
-	    },
-	    "l": {
-	    	"abbr": "PHI",
-		    "conf": "east",
-		    "touch": true
+				"touch": false,
+				"winner": true
 	    }
 	  },
 	  {
 	    "year": 2011,
-	    "w": {
+	    "east": {
 	    	"abbr": "BOS",
-		    "conf": "east",
-		    "touch": false
+				"touch": false,
+				"winner": true
 	    },
-	    "l": {
+	    "west": {
 	    	"abbr": "VAN",
-		    "conf": "west",
-		    "touch": false
+				"touch": false,
+				"winner": false
 	    }
 	  },
 	  {
 	    "year": 2012,
-	    "w": {
+			"east": {
+				"abbr": "NJD",
+				"touch": false,
+				"winner": false
+			},
+	    "west": {
 	    	"abbr": "LAK",
-		    "conf": "west",
-		    "touch": false
-	    },
-	    "l": {
-	    	"abbr": "NJD",
-		    "conf": "east",
-		    "touch": false
+				"touch": false,
+				"winner": true
 	    }
 	  },
 	  {
 	    "year": 2013,
-	    "w": {
+			"east": {
+				"abbr": "BOS",
+				"touch": false,
+				"winner": false
+			},
+	    "west": {
 	    	"abbr": "CHI",
-		    "conf": "west",
-		    "touch": false
-	    },
-	    "l": {
-	    	"abbr": "BOS",
-		    "conf": "east",
-		    "touch": false
+				"touch": false,
+				"winner": true
 	    }
 	  },
 	  {
 	    "year": 2014,
-	    "w": {
+			"east": {
+				"abbr": "NYR",
+				"touch": false,
+				"winner": false
+			},
+	    "west": {
 	    	"abbr": "LAK",
-		    "conf": "west",
-		    "touch": false
-	    },
-	    "l": {
-	    	"abbr": "NYR",
-		    "conf": "east",
-		    "touch": false
+				"touch": false,
+				"winner": true
 	    }
 	  },
 	  {
 	    "year": 2015,
-	    "w": {
+			"east": {
+				"abbr": "TBL",
+				"touch": false,
+				"winner": false
+			},
+	    "west": {
 	    	"abbr": "CHI",
-		    "conf": "west",
-		    "touch": false
-	    },
-	    "l": {
-	    	"abbr": "TBL",
-		    "conf": "east",
-		    "touch": false
+				"touch": false,
+				"winner": true
 	    }
 	  },
 	  {
 	    "year": 2016,
-	    "w": {
+	    "east": {
 	    	"abbr": "PIT",
-		    "conf": "east",
-		    "touch": true
+				"touch": true,
+				"winner": true
 	    },
-	    "l": {
+	    "west": {
 	    	"abbr": "SJS",
-		    "conf": "west",
-		    "touch": false
+				"touch": false,
+				"winner": false
 	    }
 	  },
 	  {
 	    "year": 2017,
-	    "w": {
+	    "east": {
 	    	"abbr": "PIT",
-		    "conf": "east",
-		    "touch": true
+				"touch": true,
+				"winner": true
 	    },
-	    "l": {
+	    "west": {
 	    	"abbr": "NSH",
-		    "conf": "west",
-		    "touch": false
+				"touch": false,
+				"winner": false
 	    }
 	  },
 	  {
 	    "year": 2018,
-	    "w": {
+	    "east": {
 	    	"abbr": "WSH",
-		    "conf": "east",
-		    "touch": true
+				"touch": true,
+				"winner": true
 	    },
-	    "l": {
+	    "west": {
 	    	"abbr": "VGK",
-		    "conf": "west",
-		    "touch": true
+				"touch": true,
+				"winner": false
+	    }
+		},
+		{
+	    "year": 2019,
+	    "east": {
+	    	"abbr": "BOS",
+				"touch": false,
+				"winner": "N/A"
+	    },
+	    "west": {
+	    	"abbr": "STL",
+				"touch": false,
+				"winner": "N/A"
 	    }
 	  }
 	]
