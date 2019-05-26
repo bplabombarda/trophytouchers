@@ -8,12 +8,18 @@ const Table = (props) => {
 		<ul id="data-list">
 			<li className="data-header">
 				<div>year</div>
-				<div>{view === 'result' ? 'winner' : 'east'}</div>
-				<div>{view === 'result' ? 'loser' : 'west'}</div>
+				<div>{ view === 'result' ? 'winner' : 'east' }</div>
+				<div>{ view === 'result' ? 'loser' : 'west' }</div>
 			</li>
-			{data.map(year => {
-				return <Year key={year.year} data={year} view={view} />
-			})}
+			{
+				data.map((matchup) => (
+					<Year
+						key={ matchup.year }
+						data={ matchup }
+						view={ view }
+						/>
+				))
+			}
 		</ul> 
 	)
 }
