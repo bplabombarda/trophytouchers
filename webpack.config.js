@@ -62,7 +62,7 @@ const commonConfig = {
   ],
 
   resolve: {
-    extensions: [".js", ".json", ".css", ".scss"]
+    extensions: [ '.js', '.json', '.css', '.scss' ]
   }
 }
 
