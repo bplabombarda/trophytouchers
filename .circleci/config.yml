@@ -38,7 +38,6 @@ jobs:
       - save_cache:
           paths:
             - node_modules
-            - build
           key: v1-dependencies-{{ .Branch }}
 
   deploy:
