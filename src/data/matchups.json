@@ -239,12 +239,12 @@
 	    "east": {
 	    	"abbr": "BOS",
 				"touch": false,
-				"winner": "N/A"
+				"winner": false
 	    },
 	    "west": {
 	    	"abbr": "STL",
 				"touch": false,
-				"winner": "N/A"
+				"winner": true
 	    }
 	  }
 	]
