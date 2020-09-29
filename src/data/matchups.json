@@ -246,6 +246,19 @@
 				"touch": false,
 				"winner": true
 	    }
+	  },
+	  {
+	    "year": 2020,
+	    "east": {
+	    	"abbr": "TBL",
+				"touch": true,
+				"winner": true
+	    },
+	    "west": {
+	    	"abbr": "DAL",
+				"touch": false,
+				"winner": false
+	    }
 	  }
 	]
 }
