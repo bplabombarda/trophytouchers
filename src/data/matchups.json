@@ -2,12 +2,12 @@
 	"data": [
 	  {
 	    "year": 2001,
-			"east": {
+			"Wales": {
 				"abbr": "NJD",
 				"touch": true,
 				"winner": false
 			},
-	    "west": {
+	    "Campbell": {
 	    	"abbr": "COL",
 		    "touch": true,
 		    "winner": true
@@ -15,12 +15,12 @@
 	  },
 	  {
 	    "year": 2002,
-			"east": {
+			"Wales": {
 				"abbr": "CAR",
 				"touch": true,
 				"winner": false
 			},
-	    "west": {
+	    "Campbell": {
 	    	"abbr": "DET",
 				"touch": true,
 				"winner": true
@@ -28,12 +28,12 @@
 	  },
 	  {
 	    "year": 2003,
-	    "east": {
+	    "Wales": {
 	    	"abbr": "NJD",
 				"touch": true,
 				"winner": true
 	    },
-	    "west": {
+	    "Campbell": {
 	    	"abbr": "ANA",
 				"touch": false,
 				"winner": false
@@ -41,12 +41,12 @@
 	  },
 	  {
 	    "year": 2004,
-	    "east": {
+	    "Wales": {
 	    	"abbr": "TBL",
 				"touch": false,
 				"winner": true
 	    },
-	    "west": {
+	    "Campbell": {
 	    	"abbr": "CGY",
 				"touch": true,
 				"winner": false
@@ -54,12 +54,12 @@
 	  },
 	  {
 	    "year": 2005,
-	    "east": {
+	    "Wales": {
 	    	"abbr": "N/A",
 				"touch": "N/A",
 				"winner": "N/A"
 	    },
-	    "west": {
+	    "Campbell": {
 	    	"abbr": "N/A",
 				"touch": "N/A",
 				"winner": "N/A"
@@ -67,12 +67,12 @@
 	  },
 	  {
 	    "year": 2006,
-	    "east": {
+	    "Wales": {
 	    	"abbr": "CAR",
 				"touch": false,
 				"winner": true
 	    },
-	    "west": {
+	    "Campbell": {
 	    	"abbr": "EDM",
 				"touch": false,
 				"winner": false
@@ -80,12 +80,12 @@
 	  },
 	  {
 	    "year": 2007,
-			"east": {
+			"Wales": {
 				"abbr": "OTT",
 				"touch": true,
 				"winner": false
 			},
-	    "west": {
+	    "Campbell": {
 	    	"abbr": "ANA",
 				"touch": false,
 				"winner": true
@@ -93,12 +93,12 @@
 	  },
 	  {
 	    "year": 2008,
-			"east": {
+			"Wales": {
 				"abbr": "PIT",
 				"touch": false,
 				"winner": false
 			},
-	    "west": {
+	    "Campbell": {
 				"abbr": "DET",
 				"touch": false,
 				"winner": true
@@ -106,12 +106,12 @@
 	  },
 	  {
 	    "year": 2009,
-	    "east": {
+	    "Wales": {
 	    	"abbr": "PIT",
 				"touch": true,
 				"winner": true
 	    },
-	    "west": {
+	    "Campbell": {
 	    	"abbr": "DET",
 				"touch": false,
 				"winner": false
@@ -119,12 +119,12 @@
 	  },
 	  {
 	    "year": 2010,
-			"east": {
+			"Wales": {
 				"abbr": "PHI",
 				"touch": true,
 				"winner": false
 			},
-	    "west": {
+	    "Campbell": {
 	    	"abbr": "CHI",
 				"touch": false,
 				"winner": true
@@ -132,12 +132,12 @@
 	  },
 	  {
 	    "year": 2011,
-	    "east": {
+	    "Wales": {
 	    	"abbr": "BOS",
 				"touch": false,
 				"winner": true
 	    },
-	    "west": {
+	    "Campbell": {
 	    	"abbr": "VAN",
 				"touch": false,
 				"winner": false
@@ -145,12 +145,12 @@
 	  },
 	  {
 	    "year": 2012,
-			"east": {
+			"Wales": {
 				"abbr": "NJD",
 				"touch": false,
 				"winner": false
 			},
-	    "west": {
+	    "Campbell": {
 	    	"abbr": "LAK",
 				"touch": false,
 				"winner": true
@@ -158,12 +158,12 @@
 	  },
 	  {
 	    "year": 2013,
-			"east": {
+			"Wales": {
 				"abbr": "BOS",
 				"touch": false,
 				"winner": false
 			},
-	    "west": {
+	    "Campbell": {
 	    	"abbr": "CHI",
 				"touch": false,
 				"winner": true
@@ -171,12 +171,12 @@
 	  },
 	  {
 	    "year": 2014,
-			"east": {
+			"Wales": {
 				"abbr": "NYR",
 				"touch": false,
 				"winner": false
 			},
-	    "west": {
+	    "Campbell": {
 	    	"abbr": "LAK",
 				"touch": false,
 				"winner": true
@@ -184,12 +184,12 @@
 	  },
 	  {
 	    "year": 2015,
-			"east": {
+			"Wales": {
 				"abbr": "TBL",
 				"touch": false,
 				"winner": false
 			},
-	    "west": {
+	    "Campbell": {
 	    	"abbr": "CHI",
 				"touch": false,
 				"winner": true
@@ -197,12 +197,12 @@
 	  },
 	  {
 	    "year": 2016,
-	    "east": {
+	    "Wales": {
 	    	"abbr": "PIT",
 				"touch": true,
 				"winner": true
 	    },
-	    "west": {
+	    "Campbell": {
 	    	"abbr": "SJS",
 				"touch": false,
 				"winner": false
@@ -210,12 +210,12 @@
 	  },
 	  {
 	    "year": 2017,
-	    "east": {
+	    "Wales": {
 	    	"abbr": "PIT",
 				"touch": true,
 				"winner": true
 	    },
-	    "west": {
+	    "Campbell": {
 	    	"abbr": "NSH",
 				"touch": false,
 				"winner": false
@@ -223,12 +223,12 @@
 	  },
 	  {
 	    "year": 2018,
-	    "east": {
+	    "Wales": {
 	    	"abbr": "WSH",
 				"touch": true,
 				"winner": true
 	    },
-	    "west": {
+	    "Campbell": {
 	    	"abbr": "VGK",
 				"touch": true,
 				"winner": false
@@ -236,15 +236,41 @@
 		},
 		{
 	    "year": 2019,
-	    "east": {
+	    "Wales": {
 	    	"abbr": "BOS",
 				"touch": false,
 				"winner": false
 	    },
-	    "west": {
+	    "Campbell": {
 	    	"abbr": "STL",
 				"touch": false,
 				"winner": true
+	    }
+	  },
+		{
+	    "year": 2020,
+	    "Wales": {
+	    	"abbr": "TBL",
+				"touch": true,
+				"winner": true
+	    },
+	    "Campbell": {
+	    	"abbr": "DAL",
+				"touch": false,
+				"winner": false
+	    }
+	  },
+		{
+	    "year": 2021,
+	    "Wales": {
+	    	"abbr": "TBL",
+				"touch": true,
+				"winner": true
+	    },
+	    "Campbell": {
+	    	"abbr": "MTL",
+				"touch": false,
+				"winner": false
 	    }
 	  }
 	]

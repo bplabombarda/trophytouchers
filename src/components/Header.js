@@ -5,8 +5,8 @@ const Header = (props) => {
 	const { view, toggleHandler } = props;
 	let subheader;
 
-	if (view === 'conference') {
-      subheader = <h2>By Conference</h2>;
+	if (view === 'trophy') {
+      subheader = <h2>By Trophy</h2>;
     } else {
       subheader = <h2>By Result</h2>;
     }
