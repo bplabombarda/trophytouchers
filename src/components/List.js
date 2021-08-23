@@ -8,8 +8,8 @@ const Table = (props) => {
 		<ul id="data-list">
 			<li className="data-header">
 				<div>year</div>
-				<div>{ view === 'result' ? 'winner' : 'east' }</div>
-				<div>{ view === 'result' ? 'loser' : 'west' }</div>
+				<div>{ view === 'result' ? 'winner' : 'Wales' }</div>
+				<div>{ view === 'result' ? 'loser' : 'Campbell' }</div>
 			</li>
 			{
 				data.map((matchup) => (

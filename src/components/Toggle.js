@@ -6,7 +6,7 @@ const Toggle = (props) => {
 	return (
 		<div className="toggle-button-group">
 			<button
-				className={view === 'conference' ? 'button-active' : 'button-disabled'}
+				className={view === 'trophy' ? 'button-active' : 'button-disabled'}
 				type="button"
 				disabled={view === 'result'}
 				onClick={toggleHandler.bind(this)}>
@@ -15,9 +15,9 @@ const Toggle = (props) => {
 			<button
 				className={view === 'result' ? 'button-active' : 'button-disabled'}
 				type="button"
-				disabled={view === 'conference'}
+				disabled={view === 'trophy'}
 				onClick={toggleHandler.bind(this)}>
-				By Conference
+				By Trophy
 			</button>
 		</div>
 	)

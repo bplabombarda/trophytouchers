@@ -8,14 +8,14 @@ const Year = (props) => {
 	let classesTeamA;
 	let classesTeamB;
 
-	if(view === 'conference') {
-		teamA = data.east;
-		teamB = data.west;
+	if(view === 'trophy') {
+		teamA = data.Wales;
+		teamB = data.Campbell;
 		classesTeamA = teamA.touch ? 'team-a touch' : 'team-a no-touch';
 		classesTeamB = teamB.touch ? 'team-b touch' : 'team-b no-touch';
 	} else {
-		teamA = data.east.winner ? data.east : data.west;
-		teamB = data.east.winner ? data.west : data.east;
+		teamA = data.Wales.winner ? data.Wales : data.Campbell;
+		teamB = data.Wales.winner ? data.Campbell : data.Wales;
 		classesTeamA = teamA.touch ? 'team-a touch' : 'team-a no-touch';
 		classesTeamB = teamB.touch ? 'team-b touch' : 'team-b no-touch';
 	}

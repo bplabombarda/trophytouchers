@@ -17,7 +17,7 @@ export default class App extends Component {
 
     handleToggle() {
     	if (this.state.view === 'result') {
-    		this.setState({ view: 'conference' })
+    		this.setState({ view: 'trophy' })
     	}
     	else {
     		this.setState({ view: 'result' })
