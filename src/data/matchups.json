@@ -278,12 +278,12 @@
       "Wales": {
         "abbr": "TBL",
         "touch": true,
-        "winner": "N/A"
+        "winner": false
       },
       "Campbell": {
         "abbr": "COL",
         "touch": true,
-        "winner": "N/A"
+        "winner": true
       }
     }
   ]
