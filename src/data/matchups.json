@@ -285,6 +285,19 @@
         "touch": true,
         "winner": true
       }
+    },
+    {
+      "year": 2023,
+      "Wales": {
+        "abbr": "FLA",
+        "touch": true,
+        "winner": "N/A"
+      },
+      "Campbell": {
+        "abbr": "VGK",
+        "touch": false,
+        "winner": "N/A"
+      }
     }
   ]
 }
