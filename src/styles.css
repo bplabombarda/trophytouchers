@@ -1,0 +1,15 @@
+body {
+	font-family: 'Anonymous Pro', monospace;
+	color: ivory;
+	background: #333333;
+	text-align: center;
+}
+
+li div {
+  background: #444444;
+  color: lightgray;
+  display: inline-block;
+	font-size: 14px;
+  padding: 5px;
+  width: 64px;
+}
