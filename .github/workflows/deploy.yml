@@ -25,7 +25,7 @@ jobs:
       - name: Build 🔧
         run: |
           npm ci
-          npm run build
+          npm run build -- --base=/trophytouchers/
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.3.3
