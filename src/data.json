@@ -56,13 +56,13 @@
       "year": 2005,
       "Wales": {
         "abbr": "N/A",
-        "touch": "N/A",
-        "winner": "N/A"
+        "touch": false,
+        "winner": false
       },
       "Campbell": {
         "abbr": "N/A",
-        "touch": "N/A",
-        "winner": "N/A"
+        "touch": false,
+        "winner": false
       }
     },
     {
@@ -291,12 +291,12 @@
       "Wales": {
         "abbr": "FLA",
         "touch": true,
-        "winner": "N/A"
+        "winner": false
       },
       "Campbell": {
         "abbr": "VGK",
         "touch": false,
-        "winner": "N/A"
+        "winner": true
       }
     }
   ]
