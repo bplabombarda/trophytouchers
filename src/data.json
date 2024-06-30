@@ -304,7 +304,7 @@
       "Wales": {
         "abbr": "FLA",
         "touch": false,
-        "winner": false
+        "winner": true
       },
       "Campbell": {
         "abbr": "EDM",
