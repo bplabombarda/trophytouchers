@@ -5,10 +5,6 @@ import Legend from './components/Legend.vue'
 
 <template>
   <div>
-    <header>
-      <h1>Trophy Touchers</h1>
-    </header>
-
     <FinalsList />
     <Legend />
   </div>
