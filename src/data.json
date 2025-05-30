@@ -311,6 +311,19 @@
         "touch": false,
         "winner": false
       }
+    },
+    {
+      "year": 2025,
+      "Wales": {
+        "abbr": "FLA",
+        "touch": false,
+        "winner": false
+      },
+      "Campbell": {
+        "abbr": "EDM",
+        "touch": true,
+        "winner": false
+      }
     }
   ]
 }
