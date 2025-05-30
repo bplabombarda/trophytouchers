@@ -321,7 +321,7 @@
       },
       "Campbell": {
         "abbr": "EDM",
-        "touch": false,
+        "touch": true,
         "winner": false
       }
     }
