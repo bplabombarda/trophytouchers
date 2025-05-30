@@ -5,8 +5,8 @@ import Legend from './components/Legend.vue'
 
 <template>
   <div>
-    <FinalsList />
     <Legend />
+    <FinalsList />
   </div>
 </template>
 
