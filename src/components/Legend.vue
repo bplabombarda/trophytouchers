@@ -6,11 +6,11 @@ export default {}
   <section class="legend">
     <div className="legend-item">
       <div className="legend-icon legend-touch"></div>
-      Touched conference trophy.
+      Touched the conference trophy
     </div>
     <div className="legend-item">
       <div className="legend-icon legend-champ"></div>
-      Stanley Cup champion.
+      Stanley Cup champion
     </div>
   </section>
 </template>
