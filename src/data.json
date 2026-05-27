@@ -3,6 +3,19 @@
     {
       "year": 2025,
       "Wales": {
+        "abbr": "N/A",
+        "touch": false,
+        "winner": false
+      },
+      "Campbell": {
+        "abbr": "VGK",
+        "touch": false,
+        "winner": false
+      }
+    },
+    {
+      "year": 2025,
+      "Wales": {
         "abbr": "FLA",
         "touch": false,
         "winner": true
