@@ -5,7 +5,7 @@
       "Wales": {
         "abbr": "CAR",
         "touch": false,
-        "winner": false
+        "winner": true
       },
       "Campbell": {
         "abbr": "VGK",
